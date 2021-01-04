@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { IStateContext, RoomsObject } from '../models/models';
-import items from './data';
+import {items} from './data';
 
 const RoomContext = React.createContext<RoomsObject | null>(null);
 
@@ -49,21 +49,17 @@ class RoomProvider extends Component<{}, IStateContext> {
         )
     }
 
-    private formatData = (items: any) => {
-        const tempItems = items.map((item: any) => {
+    private formatData = (items: any) =>
+          items.map((item: any) => {
             let id = item.sys.id
-            let images = item.fields.images.map((image: any) => image.fields.file.url)
-            const room = {...item.fields, images, id} // Reformating the array
-            return room;
-        })
+              let images = item.fields.images.map((image: any) => image.fields.file.url)
 
-        return tempItems;
-    }
+              return {...item.fields, images, id};
+          })
 
     private getRoom = (slug: string) => {
         const tempRooms = [...this.state.rooms];
-        const room = tempRooms.find((room: any) => room.slug === slug);
-        return room;
+        return tempRooms.find((room: any) => room.slug === slug);
     }
 
     private handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -131,7 +127,7 @@ class RoomProvider extends Component<{}, IStateContext> {
 
 const RoomConsumer = RoomContext.Consumer;
 
-type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
+// type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 
 // For Using Context with Functional Component (Stateless) with HOC
 export const withRoomConsumer = <P extends {}>(Component: React.ComponentClass<P> | React.StatelessComponent<P>): React.FC<any> => props => {

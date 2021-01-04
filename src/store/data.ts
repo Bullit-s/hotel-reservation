@@ -15,7 +15,7 @@ import img10 from "../assets/images/room-10.jpeg";
 import img11 from "../assets/images/room-11.jpeg";
 import img12 from "../assets/images/room-12.jpeg";
 
-export default [
+export const items = [
   {
     sys: {
       id: "1"

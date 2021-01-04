@@ -1,3 +1,5 @@
+import {ChangeEvent} from "react";
+
 export interface IStateContext {
     rooms: any[];
     sortedRooms: any[];
@@ -36,6 +38,6 @@ export interface RoomsObject {
     breakfast: boolean;
     pets: boolean;
     getRoom: (slug: string) => any;
-    handleChange: (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement> ) => any;
+    handleChange: (event: ChangeEvent<HTMLInputElement | HTMLSelectElement> ) => any;
     handleChecked: (event: any) => any;
 }
