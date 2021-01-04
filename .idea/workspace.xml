@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b5b275-ad91-4752-b1e4-c6aa58c4e8b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/sass/ant-components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/sass/ant-components.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/sass/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/sass/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedRooms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedRooms.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoomsFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomsFilter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/RoomsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/RoomsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/helpers/ScrollToTop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/helpers/ScrollToTop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/models.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +77,8 @@
       <workItem from="1609689349771" duration="56000" />
       <workItem from="1609689416520" duration="6552000" />
       <workItem from="1609758553347" duration="2517000" />
-      <workItem from="1609761082413" duration="9212000" />
+      <workItem from="1609761082413" duration="12043000" />
+      <workItem from="1609773154477" duration="478000" />
     </task>
     <servers />
   </component>
@@ -101,22 +94,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609766570024" />
-    <state width="1493" height="10" key="GridCell.Tab.0.bottom" timestamp="1609769507081">
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1609773499301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="10" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609769507081" />
-    <state width="1493" height="10" key="GridCell.Tab.0.center" timestamp="1609769507081">
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609773499301" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1609773499301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="10" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609769507081" />
-    <state width="1493" height="10" key="GridCell.Tab.0.left" timestamp="1609769507080">
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609773499301" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1609773499301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="10" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609769507080" />
-    <state width="1493" height="10" key="GridCell.Tab.0.right" timestamp="1609769507081">
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609773499301" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1609773499301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="10" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609769507081" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609773499301" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1609761066701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -125,10 +118,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="585" y="91" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1609689697296" />
-    <state x="824" y="107" width="579" height="564" key="find.popup" timestamp="1609769593663">
+    <state x="824" y="107" width="579" height="564" key="find.popup" timestamp="1609773176345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="824" y="107" width="579" height="564" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609769593663" />
+    <state x="824" y="107" width="579" height="564" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609773176345" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1609760712907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

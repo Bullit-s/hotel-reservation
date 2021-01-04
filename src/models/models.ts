@@ -1,4 +1,3 @@
-import { ChangeEvent } from "react";
 import { FilterValues } from "../components/RoomsFilter";
 
 export interface IStateContext {

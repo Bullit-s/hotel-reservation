@@ -1,8 +1,8 @@
 import React, { useContext, useMemo } from "react";
+import { Button, Checkbox, Form, Select, Slider } from "antd";
 import { RoomContext } from "../store/context";
 import Title from "./Title";
 import Loading from "./Loading";
-import { Checkbox, Form, Select, Slider } from "antd";
 
 interface IPropsRoomsFilter {
   rooms: any[];
@@ -21,7 +21,7 @@ export interface FilterValues {
   pets?: boolean;
 }
 
-export const filterInitialValues = {
+export const filterInitialValues: FilterValues = {
   type: "Все",
   capacity: 1,
   price: [0, 1000],
@@ -46,56 +46,64 @@ const RoomsFilter = ({ rooms }: IPropsRoomsFilter) => {
     [rooms]
   );
 
-  if (roomContext) {
-    const { onChangeFilters } = roomContext;
+  const onClearFilters = () => {
+    if (roomContext) {
+      form.resetFields();
+      roomContext?.onChangeFilters({}, filterInitialValues);
+    }
+  };
 
-    return (
-      <section className="filter-container">
-        <Title title="Найти номер" />
-        <Form
-          form={form}
-          layout={"vertical"}
-          initialValues={filterInitialValues}
-          onValuesChange={onChangeFilters}
-          requiredMark={true}
-          className="filter-form"
-        >
-          <Form.Item label={"Тип"} name={"type"}>
-            <Select style={{ width: 120 }} options={types} />
+  return roomContext ? (
+    <section className="filter-container">
+      <Title title="Найти номер" />
+      <Form
+        form={form}
+        layout={"vertical"}
+        initialValues={filterInitialValues}
+        onValuesChange={roomContext.onChangeFilters}
+        requiredMark={true}
+        className="filter-form"
+      >
+        <Form.Item label={"Тип"} name={"type"}>
+          <Select style={{ width: 120 }} options={types} />
+        </Form.Item>
+        <Form.Item label={"Гостей"} name={"capacity"}>
+          <Select style={{ width: 120 }} options={capacity} />
+        </Form.Item>
+        <Form.Item label={"Цена"} name={"price"}>
+          <Slider
+            range
+            min={0}
+            max={1000}
+            tipFormatter={value => <div>Цена: {value}</div>}
+          />
+        </Form.Item>
+        <Form.Item label={"Размер"} name={"size"}>
+          <Slider
+            range
+            min={0}
+            max={1000}
+            tipFormatter={value => <div>Размер: {value}</div>}
+          />
+        </Form.Item>
+        <div className="form-group">
+          <Form.Item name={"breakfast"} valuePropName={"checked"}>
+            <Checkbox>Завтрак</Checkbox>
           </Form.Item>
-          <Form.Item label={"Гостей"} name={"capacity"}>
-            <Select style={{ width: 120 }} options={capacity} />
+          <Form.Item name={"pets"} valuePropName={"checked"}>
+            <Checkbox>Питомцы</Checkbox>
           </Form.Item>
-          <Form.Item label={"Цена"} name={"price"}>
-            <Slider
-              range
-              min={0}
-              max={1000}
-              tipFormatter={value => <div>Цена: {value}</div>}
-            />
-          </Form.Item>
-          <Form.Item label={"Размер"} name={"size"}>
-            <Slider
-              range
-              min={0}
-              max={1000}
-              tipFormatter={value => <div>Размер: {value}</div>}
-            />
-          </Form.Item>
-          <div className="form-group">
-            <Form.Item name={"breakfast"} valuePropName={"checked"}>
-              <Checkbox>Завтрак</Checkbox>
-            </Form.Item>
-            <Form.Item name={"pets"} valuePropName={"checked"}>
-              <Checkbox>Питомцы</Checkbox>
-            </Form.Item>
-          </div>
-        </Form>
-      </section>
-    );
-  } else {
-    return <Loading />;
-  }
+        </div>
+      </Form>
+      <div className="section-footer">
+        <Button type={"primary"} onClick={onClearFilters}>
+          Очистить
+        </Button>
+      </div>
+    </section>
+  ) : (
+    <Loading />
+  );
 };
 
 export default RoomsFilter;
