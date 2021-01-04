@@ -1,43 +1,30 @@
-import {ChangeEvent} from "react";
+import { ChangeEvent } from "react";
+import { FilterValues } from "../components/RoomsFilter";
 
 export interface IStateContext {
-    rooms: any[];
-    sortedRooms: any[];
-    featuredRooms: any[];
-    loading: boolean;
-    type: string;
-    capacity: number;
-    price: number;
-    minPrice: number;
-    maxPrice: number;
-    minSize: number;
-    maxSize: number,
-    breakfast: boolean;
-    pets: boolean;
-};
-
-export interface RoomObject {
-    name: string;
-    slug: string;
-    images: string[];
-    price: number;
+  rooms: any[];
+  sortedRooms: any[];
+  featuredRooms: any[];
+  loading: boolean;
 }
 
+export interface RoomObject {
+  name: string;
+  slug: string;
+  images: string[];
+  price: number;
+}
+
+export type HandleFormChange<FormValues> = (
+  changedValue: { [key in keyof FormValues]: string },
+  values: FormValues
+) => void;
+
 export interface RoomsObject {
-    rooms: any[];
-    sortedRooms: any[];
-    featuredRooms: any[];
-    loading: boolean;
-    type: string;
-    capacity: number;
-    price: number;
-    minPrice: number;
-    maxPrice: number;
-    minSize: number;
-    maxSize: number,
-    breakfast: boolean;
-    pets: boolean;
-    getRoom: (slug: string) => any;
-    handleChange: (event: ChangeEvent<HTMLInputElement | HTMLSelectElement> ) => any;
-    handleChecked: (event: any) => any;
+  rooms: any[];
+  sortedRooms: any[];
+  featuredRooms: any[];
+  loading: boolean;
+  getRoom: (slug: string) => any;
+  onChangeFilters: HandleFormChange<FilterValues>;
 }

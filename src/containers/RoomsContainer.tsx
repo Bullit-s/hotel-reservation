@@ -11,7 +11,6 @@ interface IPropsRoomsContainer {
 
 // Use Context in functional component with HOC
 const RoomsContainer: React.FC<IPropsRoomsContainer> = ({context}) => {
-
     const {loading, rooms, sortedRooms} = context;
     console.log("context", context);
 

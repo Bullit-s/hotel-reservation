@@ -31,15 +31,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -88,15 +88,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -145,15 +145,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -202,15 +202,15 @@ export const items = [
       breakfast: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -259,15 +259,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -316,15 +316,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -373,15 +373,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -430,15 +430,15 @@ export const items = [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -487,15 +487,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -544,15 +544,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -601,15 +601,15 @@ export const items = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -658,15 +658,15 @@ export const items = [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {
@@ -715,15 +715,15 @@ export const items = [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Уютный номер, в котором могут разместиться гости. Номер с кондиционером, выполненный в спокойной цветовой гамме и распологает к отдыху после долгих экскурсий, прогулок и развлечений на море. В номере предусмотрена вся необходимая мебель. Одним из достоинств этого номера являются большие панорамные окна  и просторный балкон с летней мебелью, что позволит отдыхать на свежем воздухе в любое время суток. Номер содержит все необходимое для комфортного проживания и отдыха: уютная мягкая мебель, спутниковое телевидение, систему кондиционирования, Интернет (WiFi), холодильник. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Пышные подушки, дышащее постельное белье",
+        "Большие, мягкие банные полотенца",
+        "Туалетные принадлежности",
+        "Бесплатные напитки",
+        "Охрана и безопаность",
+        "Интернет",
+        "Удобные кровати"
       ],
       images: [
         {

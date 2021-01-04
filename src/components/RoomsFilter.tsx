@@ -1,86 +1,101 @@
-import React, { useContext } from 'react';
-import { RoomContext } from '../store/context';
-import Title from './Title';
-import Loading from './Loading';
+import React, { useContext, useMemo } from "react";
+import { RoomContext } from "../store/context";
+import Title from "./Title";
+import Loading from "./Loading";
+import { Checkbox, Form, Select, Slider } from "antd";
 
 interface IPropsRoomsFilter {
-    rooms: any[];
+  rooms: any[];
 }
 
-// Get all unique items
 const getUnique = (items: any[], value: any) => {
-    return [...new Set(items.map(item => item[value]))]
+  return [...new Set(items.map(item => item[value]))];
+};
+
+export interface FilterValues {
+  type?: string;
+  capacity?: number;
+  price?: [number, number];
+  size?: [number, number];
+  breakfast?: boolean;
+  pets?: boolean;
 }
 
-// Another method of using context without HOC or provider
-const RoomsFilter = ({rooms}: IPropsRoomsFilter) => {
-    const roomContext = useContext(RoomContext);
-    if (roomContext) {
-    const { handleChange, handleChecked, type, capacity, price, minPrice, maxPrice, minSize, maxSize, breakfast, pets } = roomContext;
-    let types = getUnique(rooms, 'type');
-    types = ['Все', ...types];
+export const filterInitialValues = {
+  type: "Все",
+  capacity: 1,
+  price: [0, 1000],
+  size: [0, 1000],
+  breakfast: false,
+  pets: false
+};
 
-    let people = getUnique(rooms, 'capacity');
+const RoomsFilter = ({ rooms }: IPropsRoomsFilter) => {
+  const [form] = Form.useForm<FilterValues>();
+  const roomContext = useContext(RoomContext);
+
+  const types = useMemo(
+    () => [
+      { value: "Все" },
+      ...getUnique(rooms, "type").map(value => ({ value }))
+    ],
+    [rooms]
+  );
+  const capacity = useMemo(
+    () => getUnique(rooms, "capacity").map(value => ({ value })),
+    [rooms]
+  );
+
+  if (roomContext) {
+    const { onChangeFilters } = roomContext;
 
     return (
-        <section className="filter-container">
-            <Title title="Найти номер" />
-            <form className="filter-form">
-                {/* select type */}
-                <div className="form-group">
-                    <label htmlFor="type">Тип</label>
-                    <select name="type" id="type" value={type} className="form-control" onChange={handleChange}>
-                        {types.map((item: any, index: number) => {
-                            return <option key={index} value={item}>{item}</option>
-                        })}
-                    </select>
-                </div>
-                {/* end of select type */}
-                {/* guest */}
-                <div className="form-group">
-                    <label htmlFor="capacity">Гостей</label>
-                    <select name="capacity" id="capacity" value={capacity} className="form-control" onChange={handleChange}>
-                        {people.map((item: any, index: number) => {
-                            return <option key={index} value={item}>{item}</option>
-                        })}
-                    </select>
-                </div>
-                {/* end of guest */}
-                {/* rooms price */}
-                <div className="form-group">
-                    <label htmlFor="price">
-                       Цена ${price}
-                    </label>
-                    <input type="range" id="price" name="price" min={minPrice} max={maxPrice} value={price} onChange={handleChange} className="form-control"/>
-                </div>
-                {/* end of rooms price */}
-                {/* size */}
-                <div className="form-group">
-                    <label htmlFor="size">Размеры номера</label>
-                    <div className="size-inputs">
-                        <input type="number" name="minSize" min={0} id="size" value={minSize} onChange={handleChange} className="size-input"/>
-                        <input type="number" name="maxSize" min={0} id="size" value={maxSize} onChange={handleChange} className="size-input"/>
-                    </div>
-                </div>
-                {/* end of size */}
-                {/* extras */}
-                <div className="form-group">
-                    <div className="single-extra">
-                        <input type="checkbox" name="breakfast" id="breakfast" checked={breakfast} onChange={handleChecked}/>
-                        <label htmlFor="breakfast">Завтрак</label>
-                    </div>
-                     <div className="single-extra">
-                        <input type="checkbox" name="pets" id="pets" checked={pets} onChange={handleChecked}/>
-                        <label htmlFor="pets">Питомцы</label>
-                    </div>
-                </div>
-                {/* end of extras */}
-            </form>
-        </section>
-    )
-    } else {
-        return <Loading />
-    }
-}
+      <section className="filter-container">
+        <Title title="Найти номер" />
+        <Form
+          form={form}
+          layout={"vertical"}
+          initialValues={filterInitialValues}
+          onValuesChange={onChangeFilters}
+          requiredMark={true}
+          className="filter-form"
+        >
+          <Form.Item label={"Тип"} name={"type"}>
+            <Select style={{ width: 120 }} options={types} />
+          </Form.Item>
+          <Form.Item label={"Гостей"} name={"capacity"}>
+            <Select style={{ width: 120 }} options={capacity} />
+          </Form.Item>
+          <Form.Item label={"Цена"} name={"price"}>
+            <Slider
+              range
+              min={0}
+              max={1000}
+              tipFormatter={value => <div>Цена: {value}</div>}
+            />
+          </Form.Item>
+          <Form.Item label={"Размер"} name={"size"}>
+            <Slider
+              range
+              min={0}
+              max={1000}
+              tipFormatter={value => <div>Размер: {value}</div>}
+            />
+          </Form.Item>
+          <div className="form-group">
+            <Form.Item name={"breakfast"} valuePropName={"checked"}>
+              <Checkbox>Завтрак</Checkbox>
+            </Form.Item>
+            <Form.Item name={"pets"} valuePropName={"checked"}>
+              <Checkbox>Питомцы</Checkbox>
+            </Form.Item>
+          </div>
+        </Form>
+      </section>
+    );
+  } else {
+    return <Loading />;
+  }
+};
 
 export default RoomsFilter;
