@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from "react";
 import { Button, Checkbox, Form, Select, Slider } from "antd";
-import { RoomContext } from "../store/context";
+import { RoomContext } from "../core/context/RoomContext";
 import Title from "./Title";
 import Loading from "./Loading";
 

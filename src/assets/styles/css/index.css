@@ -143,7 +143,7 @@ h6 {
   color: var(--primaryColor); }
 
 .show-nav {
-  height: 100px; }
+  height: 180px; }
 
 @media screen and (min-width: 768px) {
   .nav-btn {

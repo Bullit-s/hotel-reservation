@@ -2,7 +2,16 @@
   "name": "hotel-booking",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shubhamd99.github.io/react-hotel-booking-app/",
+  "scripts": {
+    "build:css": "node-sass src/assets/styles/sass/ -o src/assets/styles/css/",
+    "watch:css": "npm run build:css && node-sass src/assets/styles/sass/ -o src/assets/styles/css/ --watch --recursive",
+    "start:js": "react-scripts start",
+    "start": "npm-run-all -p watch:css start:js",
+    "build": "npm run build:css && react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "npm run predeploy && firebase deploy --only hosting:bagriy-hotel"
+  },
   "dependencies": {
     "@types/jest": "26.0.19",
     "@types/node": "14.14.19",
@@ -16,18 +25,16 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "4.0.1",
     "styled-components": "^5.2.1",
-    "typescript": "4.1.3"
+    "typescript": "4.1.3",
+    "firebase": "^8.0.1"
   },
-  "scripts": {
-    "build:css": "node-sass src/assets/styles/sass/ -o src/assets/styles/css/",
-    "watch:css": "npm run build:css && node-sass src/assets/styles/sass/ -o src/assets/styles/css/ --watch --recursive",
-    "start:js": "react-scripts start",
-    "start": "npm-run-all -p watch:css start:js",
-    "build": "npm run build:css && react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@types/node-sass": "^4.11.1",
+    "@types/react-icons": "^3.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "npm-run-all": "^4.1.5",
+    "firebase-tools": "^9.1.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,13 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/node-sass": "^4.11.1",
-    "@types/react-icons": "^3.0.0",
-    "@types/react-router-dom": "^5.1.7",
-    "@types/styled-components": "^5.1.7",
-    "gh-pages": "^3.1.0",
-    "npm-run-all": "^4.1.5"
   }
 }

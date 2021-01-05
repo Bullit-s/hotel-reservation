@@ -1,0 +1,16 @@
+import { db } from "../firebase";
+
+export const addRooms = () => {
+  db.collection("rooms")
+    .add({
+      name: "Los Angeles",
+      state: "CA",
+      country: "USA"
+    })
+    .then(function() {
+      console.log("Document successfully written!");
+    })
+    .catch(function(error) {
+      console.error("Error writing document: ", error);
+    });
+};
