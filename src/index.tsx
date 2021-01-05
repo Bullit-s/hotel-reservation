@@ -5,7 +5,7 @@ import { HashRouter as Router } from "react-router-dom";
 import { RoomProvider } from "./core/context/RoomContext";
 import { AuthProvider } from "./core/context/AuthContext";
 import * as serviceWorker from "./serviceWorker";
-import { ScrollToTop } from "./core/helpers/ScrollToTop";
+import { ScrollToTop } from "./components/ScrollToTop";
 import App from "./App";
 
 ReactDOM.render(

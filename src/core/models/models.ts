@@ -1,4 +1,4 @@
-import { FilterValues } from "../components/RoomsFilter";
+import { FilterValues } from "../../components/RoomsFilter";
 
 export interface IStateContext {
   rooms: any[];

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Services } from "../components/Services";
 import { FeaturedRooms } from "../components/FeaturedRooms";
 
-export const Home = () => {
+export const HomePage = () => {
   return (
     <React.Fragment>
       <Cover>

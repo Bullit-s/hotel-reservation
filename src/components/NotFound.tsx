@@ -1,12 +1,12 @@
 import React from "react";
-import { Cover } from "../components/Cover";
-import { Banner } from "../components/ui/Banner";
+import { Cover } from "./Cover";
+import { Banner } from "./ui/Banner";
 import { Link } from "react-router-dom";
 
-const ErrorPage: React.FC = () => {
+export const NotFound = () => {
   return (
     <Cover>
-      <Banner title="404" subtitle="page not found">
+      <Banner title="404" subtitle="Страница не найдена">
         <Link to="/" className="btn-primary">
           На главную
         </Link>
@@ -14,5 +14,3 @@ const ErrorPage: React.FC = () => {
     </Cover>
   );
 };
-
-export default ErrorPage;

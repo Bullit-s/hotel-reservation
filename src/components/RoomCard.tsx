@@ -1,14 +1,15 @@
 import React from "react";
 import defaultImg from "../assets/images/room-1.jpeg";
 import { Link } from "react-router-dom";
-import { RoomObject } from "../models/models";
+import { RoomObject } from "../core/models/models";
 
-interface IRoomProps {
+interface Props {
   room: RoomObject;
 }
 
-export const RoomCard: React.FC<IRoomProps> = React.memo(props => {
-  const { name, slug, images, price } = props.room;
+export const RoomCard = React.memo(({ room }: Props) => {
+  const { name, slug, images, price } = room;
+
   return (
     <article className="room">
       <div className="img-container">
@@ -25,8 +26,3 @@ export const RoomCard: React.FC<IRoomProps> = React.memo(props => {
     </article>
   );
 });
-
-// React.memo
-// Class components can bail out from rendering when their input props are
-// the same using PureComponent or shouldComponentUpdate. Now you can do the
-// same with function components by wrapping them in React.memo.

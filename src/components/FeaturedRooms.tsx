@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { RoomContext } from "../core/context/RoomContext";
 import { Title } from "./ui/Title";
-import Loading from "./ui/Loading";
+import { Loading } from "./ui/Loading";
 import { RoomCard } from "./RoomCard";
 
 export const FeaturedRooms = () => {

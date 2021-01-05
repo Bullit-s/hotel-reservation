@@ -2,7 +2,7 @@ import React, { useContext, useMemo } from "react";
 import { Button, Checkbox, Form, Select, Slider } from "antd";
 import { RoomContext } from "../core/context/RoomContext";
 import { Title } from "./ui/Title";
-import Loading from "./ui/Loading";
+import { Loading } from "./ui/Loading";
 
 interface IPropsRoomsFilter {
   rooms: any[];

@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import {
-  IStateContext,
-  HandleFormChange,
-  RoomsObject
-} from "../../models/models";
+import { IStateContext, HandleFormChange, RoomsObject } from "../models/models";
 import { items } from "../../store/data";
 import { FilterValues } from "../../components/RoomsFilter";
 
