@@ -410,9 +410,7 @@
     margin: 2rem auto;
   }
   .desc,
-  .info {
-    margin: 1rem 0;
-  }
+
   .desc h3 {
     text-transform: capitalize;
     letter-spacing: var(--mainSpacing);
@@ -455,11 +453,9 @@
     .single-room-info {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-column-gap: 2rem;
+      grid-gap: 2rem;
     }
-    .info {
-      padding-left: 3rem;
-    }
+
   }
   /* end of single room*/
   /* roomlist */

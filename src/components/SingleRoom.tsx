@@ -3,6 +3,7 @@ import defaultCover from "../assets/images/room-1.jpeg";
 import { Banner } from "./ui/Banner";
 import { Link } from "react-router-dom";
 import { StyledCover } from "./StyledCover";
+import { Booking } from "./Booking";
 
 export const SingleRoom = ({ room }: { room: any }) => {
   const {
@@ -34,10 +35,6 @@ export const SingleRoom = ({ room }: { room: any }) => {
           })}
         </div>
         <div className="single-room-info">
-          <article className="desc">
-            <h3>Описание</h3>
-            <p>{description}</p>
-          </article>
           <article className="info">
             <h3>Информация</h3>
             <h6>Цена : ${price}</h6>
@@ -48,6 +45,13 @@ export const SingleRoom = ({ room }: { room: any }) => {
             </h6>
             <h6>{pets ? "Питомцы разрешены" : "Питомцы запрещены"}</h6>
             <h6>{breakfast && "Бесплатный завтрак"}</h6>
+          </article>
+          <article>
+            <Booking />
+          </article>
+          <article className="desc">
+            <h3>Описание</h3>
+            <p>{description}</p>
           </article>
         </div>
       </section>
