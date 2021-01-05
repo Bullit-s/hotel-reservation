@@ -1,20 +1,12 @@
-import React from 'react';
+import React, { FC } from "react";
 
 interface CoverProps {
-    coverClass?: string;
+  coverClass?: string;
 }
 
-const Cover: React.FC<CoverProps> = (props) => {
-    const { coverClass, children } = props;
-    return (
-        <header className={coverClass}>
-            {children}
-        </header>
-    )
-}
-
-export default Cover;
-
-Cover.defaultProps = {
-    coverClass: "defaultHero"
+export const Cover: FC<CoverProps> = ({
+  coverClass = "defaultHero",
+  children
+}) => {
+  return <header className={coverClass}>{children}</header>;
 };

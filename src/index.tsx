@@ -6,7 +6,7 @@ import { RoomProvider } from "./core/context/RoomContext";
 import { AuthProvider } from "./core/context/AuthContext";
 import * as serviceWorker from "./serviceWorker";
 import { ScrollToTop } from "./core/helpers/ScrollToTop";
-import App from "./containers/App";
+import App from "./App";
 
 ReactDOM.render(
   <AuthProvider>

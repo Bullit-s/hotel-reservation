@@ -1,28 +1,21 @@
 import React from "react";
-import Room from "./Room";
+import { RoomCard } from "./RoomCard";
+import { EmptySearch } from "./Empty/EmptySearch";
 
 interface IPropsRoomsFilter {
   rooms: any[];
 }
 
-const RoomsList: React.FC<IPropsRoomsFilter> = ({ rooms }) => {
-  if (rooms.length === 0) {
-    return (
-      <div className="empty-search">
-        <h3>К сожалению, по вашим параметрам поиска нет номеров.</h3>
-      </div>
-    );
-  }
-
-  return (
+export const RoomsList: React.FC<IPropsRoomsFilter> = ({ rooms }) => {
+  return rooms.length === 0 ? (
+    <EmptySearch />
+  ) : (
     <section className="roomslist">
       <div className="roomslist-center">
         {rooms.map(item => {
-          return <Room key={item.id} room={item} />;
+          return <RoomCard key={item.id} room={item} />;
         })}
       </div>
     </section>
   );
 };
-
-export default RoomsList;

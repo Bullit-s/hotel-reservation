@@ -1,8 +1,8 @@
 import React from "react";
-import RoomsFilter from "../components/RoomsFilter";
-import RoomsList from "../components/RoomsList";
+import { RoomsFilter } from "../components/RoomsFilter";
+import { RoomsList } from "../components/RoomsList";
 import { withRoomConsumer } from "../core/context/RoomContext";
-import Loading from "../components/Loading";
+import Loading from "../components/ui/Loading";
 import { RoomsObject } from "../models/models";
 
 interface IPropsRoomsContainer {

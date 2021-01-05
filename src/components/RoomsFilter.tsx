@@ -1,8 +1,8 @@
 import React, { useContext, useMemo } from "react";
 import { Button, Checkbox, Form, Select, Slider } from "antd";
 import { RoomContext } from "../core/context/RoomContext";
-import Title from "./Title";
-import Loading from "./Loading";
+import { Title } from "./ui/Title";
+import Loading from "./ui/Loading";
 
 interface IPropsRoomsFilter {
   rooms: any[];
@@ -30,7 +30,7 @@ export const filterInitialValues: FilterValues = {
   pets: false
 };
 
-const RoomsFilter = ({ rooms }: IPropsRoomsFilter) => {
+export const RoomsFilter = ({ rooms }: IPropsRoomsFilter) => {
   const [form] = Form.useForm<FilterValues>();
   const roomContext = useContext(RoomContext);
 
@@ -105,5 +105,3 @@ const RoomsFilter = ({ rooms }: IPropsRoomsFilter) => {
     <Loading />
   );
 };
-
-export default RoomsFilter;
