@@ -7,6 +7,7 @@ import { NotFound } from "./components/NotFound";
 import { AuthContext } from "./core/context/AuthContext";
 import { Loader } from "./components/ui/Loader";
 import { RoomPage } from "./pages/RoomPage";
+import { BookingAffix } from "./components/BookingAffix";
 
 const App: React.FC = () => {
   const { isLoadingAuth } = useContext(AuthContext);
@@ -14,6 +15,7 @@ const App: React.FC = () => {
   return (
     <Loader loading={isLoadingAuth}>
       <Navbar />
+      <BookingAffix />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/rooms/" component={RoomsPage} />

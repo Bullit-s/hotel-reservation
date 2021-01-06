@@ -4,8 +4,15 @@ import { Banner } from "./ui/Banner";
 import { Link } from "react-router-dom";
 import { StyledCover } from "./StyledCover";
 import { Booking } from "./Booking";
+import { BookingFormParams } from "./Forms/BookingForm";
 
-export const SingleRoom = ({ room }: { room: any }) => {
+interface Props {
+  room: any;
+  booking: BookingFormParams;
+  isBooking: boolean;
+}
+
+export const SingleRoom = ({ isBooking, room, booking }: Props) => {
   const {
     name,
     description,
@@ -47,7 +54,7 @@ export const SingleRoom = ({ room }: { room: any }) => {
             <h6>{breakfast && "Бесплатный завтрак"}</h6>
           </article>
           <article>
-            <Booking />
+            <Booking isBooking={isBooking} bookingForm={booking} />
           </article>
           <article className="desc">
             <h3>Описание</h3>

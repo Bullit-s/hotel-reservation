@@ -1,4 +1,4 @@
-export const required = (name: string) => ({
+export const required = (name?: string) => ({
   required: true,
-  message: `Поле - ${name} обязательное`
+  message: name ? `Поле - ${name} обязательное` : ""
 });

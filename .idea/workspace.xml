@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b5b275-ad91-4752-b1e4-c6aa58c4e8b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/booking/cancelBooking.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/booking/getBookingRoom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookingAffix.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Forms/BookingForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/RangePicker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/helpers/dateHelpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/helpers/showNotification.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/sass/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/sass/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/rooms/addRooms.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/booking/bookingRoom.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Booking.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Booking.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SingleRoom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SingleRoom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/context/AuthContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/context/AuthContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/helpers/formRules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/helpers/formRules.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RoomPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RoomPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +53,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src\components" />
+      <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src\components\Forms" />
+      <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src\api\booking" />
+      <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src\components\Booking" />
       <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src\core" />
-      <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src" />
-      <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src\components\ui" />
-      <recent name="F:\Учеба\React app Bagriy\hotel-reservation\src\core\hooks" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -91,7 +102,7 @@
       <workItem from="1609758553347" duration="2517000" />
       <workItem from="1609761082413" duration="12043000" />
       <workItem from="1609773154477" duration="3074000" />
-      <workItem from="1609850246018" duration="15180000" />
+      <workItem from="1609850246018" duration="23656000" />
     </task>
     <servers />
   </component>
@@ -107,22 +118,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609766570024" />
-    <state width="1493" height="93" key="GridCell.Tab.0.bottom" timestamp="1609870418317">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1609946648758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="93" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609870418317" />
-    <state width="1493" height="93" key="GridCell.Tab.0.center" timestamp="1609870418317">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609946648758" />
+    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1609946648758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="93" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609870418317" />
-    <state width="1493" height="93" key="GridCell.Tab.0.left" timestamp="1609870418317">
+    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609946648758" />
+    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1609946648758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="93" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609870418317" />
-    <state width="1493" height="93" key="GridCell.Tab.0.right" timestamp="1609870418317">
+    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609946648758" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1609946648758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="93" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609870418317" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609946648758" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1609761066701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -131,14 +142,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="585" y="91" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1609689697296" />
-    <state x="824" y="107" width="579" height="564" key="find.popup" timestamp="1609871460668">
+    <state x="824" y="107" width="579" height="564" key="find.popup" timestamp="1609944696867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="824" y="107" width="579" height="564" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609871460668" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1609760712907">
+    <state x="824" y="107" width="579" height="564" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609944696867" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1609948175172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609760712907" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609948175172" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609852584623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
