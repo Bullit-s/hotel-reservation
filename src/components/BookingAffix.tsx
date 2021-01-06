@@ -1,22 +1,28 @@
 import React, { useContext, useMemo } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import { Card as AntCard } from "antd";
 import { AuthContext } from "../core/context/AuthContext";
 import { RoomContext } from "../core/context/RoomContext";
 
 export const BookingAffix = () => {
-  const { slug: roomSlug } = useParams<{ slug: string }>();
+  const location = useLocation();
   const { currentBooking } = useContext(AuthContext);
   const roomContext = useContext(RoomContext);
 
   const bookingRoom = useMemo(() => {
-    if (roomContext && currentBooking && currentBooking.roomSlug !== roomSlug) {
+    const pathList = location.pathname.split("/");
+
+    if (
+      roomContext &&
+      currentBooking &&
+      currentBooking.roomSlug !== pathList[pathList.length - 1]
+    ) {
       return roomContext.getRoom(currentBooking.roomSlug) || null;
     } else {
       return null;
     }
-  }, [currentBooking, roomContext, roomSlug]);
+  }, [currentBooking, roomContext, location]);
 
   return (
     bookingRoom && (

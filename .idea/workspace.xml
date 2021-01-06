@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b5b275-ad91-4752-b1e4-c6aa58c4e8b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/booking/cancelBooking.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/booking/getBookingRoom.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BookingAffix.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Forms/BookingForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/RangePicker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/helpers/dateHelpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/helpers/showNotification.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/rooms/addRooms.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/booking/bookingRoom.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Booking.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Booking.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BookingAffix.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookingAffix.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SingleRoom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SingleRoom.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/context/AuthContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/context/AuthContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/helpers/formRules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/helpers/formRules.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RoomPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RoomPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +91,7 @@
       <workItem from="1609758553347" duration="2517000" />
       <workItem from="1609761082413" duration="12043000" />
       <workItem from="1609773154477" duration="3074000" />
-      <workItem from="1609850246018" duration="23656000" />
+      <workItem from="1609850246018" duration="24253000" />
     </task>
     <servers />
   </component>

@@ -36,11 +36,6 @@ export const SingleRoom = ({ isBooking, room, booking }: Props) => {
         </Banner>
       </StyledCover>
       <section className="single-room">
-        <div className="single-room-images">
-          {defaultImg.map((item: string, index: number) => {
-            return <img key={index} src={item} alt={name} />;
-          })}
-        </div>
         <div className="single-room-info">
           <article className="info">
             <h3>Информация</h3>
@@ -60,6 +55,11 @@ export const SingleRoom = ({ isBooking, room, booking }: Props) => {
             <h3>Описание</h3>
             <p>{description}</p>
           </article>
+        </div>
+        <div className="single-room-images">
+          {defaultImg.map((item: string, index: number) => {
+            return <img key={index} src={item} alt={name} />;
+          })}
         </div>
       </section>
       <section className="room-extras">

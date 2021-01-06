@@ -14,8 +14,8 @@ const App: React.FC = () => {
 
   return (
     <Loader loading={isLoadingAuth}>
-      <Navbar />
       <BookingAffix />
+      <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/rooms/" component={RoomsPage} />
